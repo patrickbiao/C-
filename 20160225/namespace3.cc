@@ -5,7 +5,6 @@
  ///
  
 #include <iostream>
-
 using namespace std;
 
 extern int num = 0;
@@ -28,8 +27,16 @@ namespace A
 	}
 }
 
+namespace B
+{
+	void dispB()
+	{
+		A::dispA();
+	}
+}
 int main()
 {
 	A::dispA();
+	B::dispB();
 	return 0;
 }
