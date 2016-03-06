@@ -15,15 +15,12 @@
 class MutexLock
 {
 public:
-	MutexLock();
+	MutexLock();//在类内声明
 	~MutexLock();
 
 	void lock();//通过类的方式写代码
 	void unlock();//以后使用就直接通过类调用
-	pthread_mutex_t * getMutexPtr();//返回指针
-//	{
-//		return &_mutex;
-//	}
+	pthread_mutex_t * getMutexPtr();//返回指针（锁的地址）
 private:
 	pthread_mutex_t _mutex;
 //	static pthread_mutex_t _mutex;

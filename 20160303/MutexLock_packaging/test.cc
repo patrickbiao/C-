@@ -43,7 +43,7 @@ void * thread2(void * arg)
 	cout << "iCount = " << iCount << endl;
 	mutexlock.unlock();
 	condition.notify();
-	sleep(1);}
+	sleep(2);}
 }
 int main(void)
 {
