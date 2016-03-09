@@ -15,6 +15,7 @@ class Line
 public:
 	float distance(const Point & lhs,const Point & rhs);
 //因为这个用了Point的引用，故需要在前面声明其为类
+//定义成引用提高效率，因为不用进行复制
 };
 
 class Point
