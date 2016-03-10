@@ -3,3 +3,8 @@
 2016-03-10 00:15:51,818:INFO myCat : system info{testMylog.cc-main-38}
 2016-03-10 00:15:51,820:DEBUG myCat : system debug{testMylog.cc-main-39}
 2016-03-10 00:15:51,820:FATAL myCat : system{testMylog.cc-main-40}
+2016-03-10 20:40:31,681:FATAL myCat : system core dump{testMylog.cc-main-36}
+2016-03-10 20:40:31,682:ERROR myCat : system error{testMylog.cc-main-37}
+2016-03-10 20:40:31,682:INFO myCat : system info{testMylog.cc-main-38}
+2016-03-10 20:40:31,683:DEBUG myCat : system debug{testMylog.cc-main-39}
+2016-03-10 20:40:31,684:FATAL myCat : system{testMylog.cc-main-40}
